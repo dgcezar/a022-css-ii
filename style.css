@@ -1,24 +1,46 @@
 header{
     border-bottom: 1px solid black;
+    display: block;
+    text-align: center;
   }
   
   main{
     width: 800px;
+    margin: auto;
+    position: relative;
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position: fixed;
+    right: 0;       
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: fixed;
+    bottom: 0;
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+ 
+  .alterarCor:active {
+    background-color: black;
+    color: white;
+  }
+
+  #alterarBotao:active {
+    background-color: white;
+    color: black;
   }
